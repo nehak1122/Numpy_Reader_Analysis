@@ -1,0 +1,55 @@
+--- 1. Data Loading ---
+Column names:
+('Country_name', 'Regional_indicator', 'Ladder_score', 'Standard_error_of_ladder_score', 'upperwhisker', 'lowerwhisker', 'Logged_GDP_per_capita', 'Social_support', 'Healthy_life_expectancy', 'Freedom_to_make_life_choices', 'Generosity', 'Perceptions_of_corruption', 'Ladder_score_in_Dystopia', 'Explained_by_Log_GDP_per_capita', 'Explained_by_Social_support', 'Explained_by_Healthy_life_expectancy', 'Explained_by_Freedom_to_make_life_choices', 'Explained_by_Generosity', 'Explained_by_Perceptions_of_corruption', 'Dystopia__residual')
+
+--- 2. Basic Statistics ---
+Mean Ladder Score: 5.533
+Median Ladder Score: 5.534
+Standard Deviation: 1.070
+
+--- 3. Top and Bottom Countries ---
+Top 10 Happiest Countries:
+1. Finland (7.842)
+2. Denmark (7.620)
+3. Switzerland (7.571)
+4. Iceland (7.554)
+5. Netherlands (7.464)
+6. Norway (7.392)
+7. Sweden (7.363)
+8. Luxembourg (7.324)
+9. New Zealand (7.277)
+10. Austria (7.268)
+
+Bottom 10 Least Happy Countries:
+140. Burundi (3.775)
+141. Yemen (3.658)
+142. Tanzania (3.623)
+143. Haiti (3.615)
+144. Malawi (3.600)
+145. Lesotho (3.512)
+146. Botswana (3.467)
+147. Rwanda (3.415)
+148. Zimbabwe (3.145)
+149. Afghanistan (2.523)
+
+--- 4. Regional Analysis ---
+Average Happiness Score by Region:
+North America and ANZ: 7.129
+Western Europe: 6.915
+Central and Eastern Europe: 5.985
+Latin America and Caribbean: 5.908
+East Asia: 5.810
+Commonwealth of Independent States: 5.467
+Southeast Asia: 5.408
+Middle East and North Africa: 5.220
+Sub-Saharan Africa: 4.494
+South Asia: 4.442
+
+--- 5. Correlations ---
+Correlation with Ladder Score:
+Logged_GDP_per_capita: 0.790
+Social_support: 0.757
+Healthy_life_expectancy: 0.768
+Freedom_to_make_life_choices: 0.608
+Generosity: -0.018
+Perceptions_of_corruption: -0.421
